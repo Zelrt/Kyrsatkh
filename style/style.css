@@ -168,3 +168,7 @@ h1 {
 .tab {
     margin-top: 15px;
 }
+
+.Help {
+    background-color: red;
+}
