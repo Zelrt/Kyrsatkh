@@ -162,3 +162,7 @@ h1 {
     text-align: left;
     border: 1px solid #0e111a;
 }
+
+.tab {
+    margin-top: 15px;
+}
