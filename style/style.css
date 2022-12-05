@@ -18,7 +18,8 @@ header {
     position: sticky;
     top: 0px;
     left: 0px;
-    
+    border-bottom: #0d1221 2px solid;
+    user-select: none;
 }
 
 .right_heder {
@@ -96,6 +97,10 @@ margin-left: 0px;
     outline: none;
 }
 
+.header_input:focus{
+    background-color: #0a0c14;
+}
+
 header > div {
     display: flex;
     justify-content: center;
@@ -104,11 +109,20 @@ header > div {
 }
 
 .center_header {
-    border: 2px solid #ff5100;
+    border: 2px solid #233058;
     height: 40px;
     align-items: center;
     position: relative;
     padding-right: 200px;
+}
+
+.center_header:focus-within {
+    border: 2px solid #657cc2;
+    background-color: #0a0c14;
+}
+
+.center_header:hover {
+    border: 2px solid #394977;
 }
 
 .Help {
@@ -144,14 +158,13 @@ main > div {
 .main_content {
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 90%;
+    width: 97%;
     margin: 0 auto;
     color: whitesmoke;
 }
 
 .main_title {
     font-size: 13px;
-
 }
 
 h1 {
@@ -161,4 +174,60 @@ h1 {
 .tablo {
     text-align: left;
     border: 1px solid #0e111a;
+    border-spacing: 0px 4px;
+}
+
+.hom_img {
+    height: 35px;
+    padding-right: 30px;
+}
+
+.content1 {
+    margin-left: 70px ;
+}
+
+.content2 {
+    margin-left: 250px;
+    text-align: right;
+}
+
+.content3 {
+    margin-left: 100px; 
+    text-align: right;
+}
+
+th {
+    height: 30px;
+    font-size: 14px;
+    font-weight: 800;
+    border: 2px solid #10182e;
+}
+
+td {
+    width: 30px;
+    border: 2px solid #233058;
+    border-top: none;
+    align-items: center;  
+}
+.colors {
+    background-color: #10182e;
+}
+.content4 {
+    display: flex;
+    align-items: center; 
+}
+
+.glava {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.opisan {
+    color: rgb(118, 119, 119);
+    font-size: 14px;
+    line-height: 26px;
+}
+.herta {
+    border: 2px solid red;
+    width: 100%;
 }
