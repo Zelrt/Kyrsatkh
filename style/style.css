@@ -275,3 +275,85 @@ td {
 .last_themes {
     padding-top: 20px;
 }
+
+.stat {
+    height: 3000px;
+    width: 60%;
+    background-color: #233058;
+    margin-left: 389px;
+    margin-top: 20px;
+}
+
+.zaga {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.zag_text {
+    font-size: 30px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.tablo_3 {
+    text-align: left;
+    border-spacing: 0px 0px;
+    padding-bottom: 20px;
+    border: 1px solid #191f3a;
+    width: 94%;
+    margin: 0 auto;
+}
+
+.zag_a {
+    padding-left: 40px;
+    color: antiquewhite;
+    font-size: 15px;
+}
+.colors_a {
+    background-color: #191f3a;
+    width: 100px;
+    height: 40px;
+}
+
+.text_a {
+    color: antiquewhite;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.text_img {
+    height: 34px;
+    margin-bottom: 30px;
+}
+
+.poloz {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.telo_a {
+    color: rgb(200, 216, 250);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.data_nike {
+    padding-left: 870px;
+    padding-top: 30px;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.vrema {
+    color: #858eb9;
+}
+
+.vrem_ {
+    color: aliceblue;
+}
+
+.nike {
+    color: #789bfd;
+}
