@@ -148,7 +148,11 @@ main > div {
 
 .main_left {
     width: 65%;
+<<<<<<< HEAD
     height: 700px;
+=======
+    height: 1000px;
+>>>>>>> c20ea64 (In sharaga)
 }
 
 .main_right {
@@ -280,8 +284,12 @@ td {
     height: 3000px;
     width: 60%;
     background-color: #233058;
+<<<<<<< HEAD
     margin-left: 389px;
     margin-top: 20px;
+=======
+    margin: 0 auto;
+>>>>>>> c20ea64 (In sharaga)
 }
 
 .zaga {
@@ -295,13 +303,27 @@ td {
     color: aliceblue;
 }
 
+<<<<<<< HEAD
+=======
+.tablo_stat {
+    margin: 0 auto;
+     width: 100%; 
+}
+
+>>>>>>> c20ea64 (In sharaga)
 .tablo_3 {
     text-align: left;
     border-spacing: 0px 0px;
     padding-bottom: 20px;
     border: 1px solid #191f3a;
+<<<<<<< HEAD
     width: 94%;
     margin: 0 auto;
+=======
+    width: 93%;
+    margin: 0 auto;
+
+>>>>>>> c20ea64 (In sharaga)
 }
 
 .zag_a {
@@ -311,7 +333,10 @@ td {
 }
 .colors_a {
     background-color: #191f3a;
+<<<<<<< HEAD
     width: 100px;
+=======
+>>>>>>> c20ea64 (In sharaga)
     height: 40px;
 }
 
@@ -340,7 +365,11 @@ td {
 }
 
 .data_nike {
+<<<<<<< HEAD
     padding-left: 870px;
+=======
+    padding-left: 500px;
+>>>>>>> c20ea64 (In sharaga)
     padding-top: 30px;
     color: aliceblue;
     font-size: 15px;
@@ -356,4 +385,11 @@ td {
 
 .nike {
     color: #789bfd;
+<<<<<<< HEAD
+=======
+}
+
+.td_pozit {
+    width: -300px;
+>>>>>>> c20ea64 (In sharaga)
 }
