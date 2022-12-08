@@ -10,20 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
         main.innerHTML += ``;
     };
 
-    // fetch('./database/glaves.json')
-    // .then((response) => response.json())
-    // .then((data) => {
-    //     for (let key in data) {
-    //         categoties.push({
-    //             title: data[key].title,
-    //             // description: data[key.description],
-    //             // author: data[key.author],
-    //             // date: data[key.date],
-    //             // dataCall: data[key.dateCall],
-    //             // dataPost : data[key.datePost]
-    //         });
-    //     }
-
     const response = new XMLHttpRequest();
     response.open("GET", "./database/glaves.json");
     response.setRequestHeader("Content-type", "application/json; charset=utf-8");
