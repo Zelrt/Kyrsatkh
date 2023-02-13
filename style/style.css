@@ -149,7 +149,6 @@ main > div {
 .main_left {
     width: 65%;
     height: 700px;
-    height: 1000px;
 }
 
 .main_right {
@@ -163,6 +162,10 @@ main > div {
     width: 97%;
     margin: 0 auto;
     color: whitesmoke;
+}
+
+.ramca_main {
+    border: 2px solid rgb(255, 0, 255);
 }
 
 .main_title {
@@ -180,17 +183,19 @@ h1 {
 }
 
 .hom_img {
-    height: 35px;
-    padding-right: 30px;
+    height: 25px;
+    padding-right: 25px;
 }
 
 .content1 {
     margin-left: 70px ;
+    cursor: pointer;
 }
 
 .content2 {
     margin-left: 250px;
     text-align: right;
+    cursor: pointer;
 }
 
 .cont {
@@ -200,6 +205,7 @@ h1 {
 .content3 {
     margin-left: 100px; 
     text-align: right;
+    cursor: pointer;
 }
 
 th {
@@ -222,11 +228,16 @@ td {
 .content4 {
     display: flex;
     align-items: center; 
+    cursor: pointer;
 }
 
 .glava {
     font-size: 19px;
     font-weight: 600;
+}
+
+.glava:hover {
+    color: #0d82e2;
 }
 
 .opisan {
@@ -270,7 +281,8 @@ td {
 
 .glava_a {
     text-decoration: none;
-    color:rgb(252, 252, 252)
+    color:rgb(252, 252, 252);
+    font-size: 12px;
 }
 
 .last_themes {
@@ -371,4 +383,180 @@ td {
 
 .td_pozit {
     width: -300px;
+}
+
+.Imaine {
+    font-family: -apple-system,Open Sans,sans-serif;
+    width: 47%;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    background-color: #0d1221;
+}
+
+.Izag {
+    font-size: 35px;
+    font-weight: 560;
+   
+}
+
+.Icontent {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    letter-spacing: -.2px;
+    line-height: 28px;
+    font-size: 17px;
+}
+
+.avatarka {
+    width: 42px;
+    height: 42px;
+    border: 2px solid rgb(81, 188, 238);
+}
+
+.polzole {
+    padding-top: 16px;
+    display: flex;
+}
+
+.nickI {
+    font-size: 16px;
+    color: #0d82e2;
+}
+
+.kto_eto {
+    padding-left: 15px;
+    line-height: 28px;
+}
+
+.dateI {
+    font-size: 14px;
+    color: #5b6a9c;
+}
+
+.img_plz {
+    padding-top: 6px;
+}
+
+.bred {
+    padding-left: 25%;
+    display: flex;
+    padding-top: 12px;
+}
+
+.dizI {
+    width: 25px;
+    height: 25px;
+}
+
+.otital_img {
+    width: 25px;
+    height: 25px;
+}
+
+.posmotre_img {
+    width: 25px;
+    height: 25px;
+}
+
+.posmotret {
+    padding-left: 40px;
+    display: flex;
+}
+
+.Like {
+    padding-left: 40px;
+    display: flex;
+}
+
+.diz {
+    display: flex;
+    padding-left: 40px
+}
+
+.smotr2 {
+    padding-left: 7px;
+    padding-top: 4px;
+    color: #00ff37;
+    font-weight: 300;
+}
+
+.smotr3 {
+    padding-left: 7px;
+    padding-top: 4px;
+    color: #ff0000;
+    font-weight: 300;
+}
+
+.smotr {
+    padding-left: 7px;
+    padding-top: 4px;
+    font-weight: 300;
+}
+
+footer {
+    padding-top: 5px;
+}
+
+.footer_P {
+    border-top: 2px solid #2e354e;
+    display: flex;
+    gap: 20%;
+    
+}
+
+.left_footer {
+    padding-left: 17px;
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    display: block;
+}
+
+.Gopf {
+    font-size: 30px;
+}
+
+.footer_text {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.right_footer {
+    display: block;
+}
+
+.contact {
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.contact_text {
+    color: #73adff;
+    font-size: 16px;
+    list-style: none;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.animI:hover {
+    color: #9ac4ff;
+}
+
+.organ_img {
+    width: 70px;
+    height: 70px;
+}
+
+.ogran {
+    display: block;
+    padding-left: 10%;
+    padding-top: 60px;
 }
