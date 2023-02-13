@@ -5,7 +5,7 @@
         "author" : "Sovremenii",
         "date" : "7 августа в 8:06",
         "dataCall" : 1,
-        "dataPost" : 20
+        "dataPost" : 1
     },
     "Moderators1": {
         "title" : "Обращение к Майкеру.",
@@ -13,7 +13,7 @@
         "author" : "mandalor",
         "date" : "11 ноября в 5:06",
         "dataCall" : 1,
-        "dataPost" : 21
+        "dataPost" : 2
     },
     "Moderators2": {
         "title" : "Комната трофеев в деле! (скрытые ачивки)",
@@ -21,7 +21,7 @@
         "author" : "Tigras",
         "date" : "8 ноября в 1:01",
         "dataCall" : 1,
-        "dataPost" : 22
+        "dataPost" : 3
     },
     "Moderators3": {
         "title" : "Помогаем юзерам выбирать ПК конфигурации и обсуждаем их",
@@ -29,7 +29,7 @@
         "author" : "emadgo",
         "date" : "6 декабря в 11:38",
         "dataCall" : 2,
-        "dataPost" : 23
+        "dataPost" : 4
     },
     "Moderators4": {
         "title" : "Всё о компьютерном разгоне (PC Overclocking - OC)",
@@ -37,7 +37,7 @@
         "author" : "Tigras",
         "date" : "15.12.2021 в 22:31",
         "dataCall" : 2,
-        "dataPost" : 24
+        "dataPost" : 5
     },
     "Moderators5": {
         "title" : "Помогаем юзерам выбирать ПК конфигурации и обсуждаем их",
