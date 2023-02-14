@@ -560,3 +560,31 @@ footer {
     padding-left: 10%;
     padding-top: 60px;
 }
+
+.gir {
+    font-weight: 700;
+}
+
+.punctir {
+    margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 2px dashed #ddd;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.blu {
+    color: blue;
+}
+
+.silk {
+    color: #73adff;
+}
+
+.silk:hover {
+    color: #9ac4ff;
+}

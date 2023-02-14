@@ -87,7 +87,7 @@ function abc() {
             <p class="Icontent">${e.stat}</p><hr>
         <div class="polzole">
             <div class="img_plz">
-            <img  class="avatarka" src="/img/avatar/1.jpg">
+            <img  class="avatarka" src="/img/avatar/${e.afka}.jpg">
                  </div>
             <div class="kto_eto">
             <p><span class="nickI">${e.author}</span><br><span class="dateI">${e.data}</span></p>
