@@ -341,6 +341,11 @@ td {
     color: antiquewhite;
     font-size: 19px;
     font-weight: 500;
+    cursor: pointer;
+}
+
+.text_a:hover {
+    color: #8eadd8;
 }
 
 .text_img {
@@ -362,11 +367,11 @@ td {
 }
 
 .data_nike {
-    padding-left: 870px;
-    padding-left: 500px;
+    padding-left: 70%;
     padding-top: 30px;
     color: aliceblue;
     font-size: 15px;
+    border-bottom: 2px solid  #131314;
 }
 
 .vrema {
@@ -379,6 +384,11 @@ td {
 
 .nike {
     color: #789bfd;
+    cursor: pointer;
+}
+
+.nike:hover {
+    color: #9eb7fc;
 }
 
 .td_pozit {
@@ -425,6 +435,11 @@ td {
 .nickI {
     font-size: 16px;
     color: #0d82e2;
+    cursor: pointer;
+}
+
+.nickI:hover {
+    color: #42a0ee;
 }
 
 .kto_eto {
@@ -482,6 +497,7 @@ td {
     padding-top: 4px;
     color: #00ff37;
     font-weight: 300;
+    cursor: pointer;
 }
 
 .smotr3 {
@@ -489,6 +505,17 @@ td {
     padding-top: 4px;
     color: #ff0000;
     font-weight: 300;
+    cursor: pointer;
+}
+
+.smotr2:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.smotr3:hover {
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 .smotr {

@@ -68,7 +68,7 @@ function abc() {
             <tr>
                 <td>
                     <div class="data_nike">
-                        <span class="vrema">${e.date}<span class="vrem_">от </span><span class="nike">${e.author}</span></span>
+                        <span class="vrema">${e.date}<span class="vrem_"> от </span><span class="nike">${e.author}</span></span>
                     </div>
                 </td>
             </tr>`;}
