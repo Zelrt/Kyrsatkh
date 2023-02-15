@@ -588,3 +588,8 @@ footer {
 .silk:hover {
     color: #9ac4ff;
 }
+
+.img_stat {
+    width: 100%;
+    height: 100%;
+}
