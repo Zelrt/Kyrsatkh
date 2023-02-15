@@ -203,7 +203,7 @@ function abc() {
                             <div class="content4">
                                 <img src="./img/favicon/rupor.png" class="hom_img">
                                 <div>
-                                    <a class="glava_a" href="#">Реестр запрещённых игр</a> 
+                                    <a class="glava_a"  data-id="104" href="#">Реестр запрещённых игр</a> 
                                 </div>
                             </div>
                         </td>
@@ -218,7 +218,7 @@ function abc() {
                             <div class="content4">
                                 <img src="./img/favicon/rupor.png" class="hom_img">
                                 <div>
-                                    <a class="glava_a" href="#">Обсуждение Cyberpunk 2077</a> 
+                                    <a class="glava_a"  data-id="103" href="#">Обсуждение Cyberpunk 2077</a> 
                                 </div>
                             </div>
                         </td>
@@ -233,7 +233,7 @@ function abc() {
                             <div class="content4">
                                 <img src="../img/favicon/iron.png" class="hom_img">
                                 <div>
-                                    <a class="glava_a" href="#">Помогаем юзерам выбирать ПК конфигурации</a> 
+                                    <a class="glava_a"  data-id="102" href="#">Помогаем юзерам выбирать ПК конфигурации</a> 
                                 </div>
                             </div>
                         </td>
@@ -248,7 +248,7 @@ function abc() {
                             <div class="content4">
                                 <img src="./img/favicon/rupor.png" class="hom_img">
                                 <div>
-                                    <a class="glava_a" href="#">Темы по Genshim Impact</a> 
+                                    <a class="glava_a"  data-id="101" href="#">Темы по Genshim Impact</a> 
                                 </div>
                             </div>
                         </td>
@@ -263,7 +263,7 @@ function abc() {
                             <div class="content4">
                                 <img src="./img/favicon/rupor.png" class="hom_img">
                                 <div>
-                                    <a class="glava_a" href="#">КУРОПАТКА или КУРАПАТКА? Вот в чём вопрос?</a> 
+                                    <a class="glava_a" data-id="100" href="#">КУРОПАТКА или КУРАПАТКА? Вот в чём вопрос?</a> 
                                 </div>
                             </div>
                         </td>
@@ -279,4 +279,33 @@ function abc() {
           abc()
     });}
     abc();
+    let glava_a = document.querySelectorAll('.glava_a');
+        glava_a.forEach(e => {
+            e.addEventListener("click", event => {
+                document.querySelector("main").innerHTML = "";
+                    stats.forEach(e => {
+                        if (e.id ==  event.currentTarget.dataset.id) {
+                            document.querySelector("main").innerHTML = `
+                            <div class="Imaine">
+            <h1 class="Izag">${e.head}</h1>
+            <p class="Icontent">${e.stat}</p><hr>
+        <div class="polzole">
+            <div class="img_plz">
+            <img  class="avatarka" src="/img/avatar/${e.afka}.jpg">
+                 </div>
+            <div class="kto_eto">
+            <p><span class="nickI">${e.author}</span><br><span class="dateI">${e.data}</span></p>
+            </div>
+            <div class="bred">
+                <div class="otital"><img class="otital_img" src="/img/icon/otital.png"></div>
+                <div class="posmotret"><img class="posmotre_img" src="/img/icon/glaz.png"><p class="smotr"> ${e.watch}</p></div>
+                <div class="Like"><img class="dizI" src="/img/icon/like.png"><p class="smotr2">${e.smotr2}</p></div>
+                <div class="diz"><img class="dizI" src="/img/icon/diz.png"><p class="smotr3"">${e.smotr3}</p></div>
+             </div>
+        </div>
+    </div>`;
+                        }
+                    });
+            });
+        });
     });
