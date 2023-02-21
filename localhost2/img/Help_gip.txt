@@ -1,0 +1,4 @@
+ git add -A     
+git pull kurs main  
+git commit -m "faile"
+git push kurs main  
